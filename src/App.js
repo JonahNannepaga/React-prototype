@@ -26,10 +26,10 @@ function App() {
       <main>
         <FunctionalComponent></FunctionalComponent>
         <ClassComponent id="first"></ClassComponent>
-        <Heading title="Header1"></Heading>
-        <Heading title="Header2"></Heading>
+        <Heading title="Heading 1 Using props"></Heading>
+        <Heading title="Heading 2"></Heading>
         <ClassComponent id="second"></ClassComponent>
-        <Heading title="Header3"></Heading>
+        <Heading title="Heading 3"></Heading>
       </main>
     </div>
   );
