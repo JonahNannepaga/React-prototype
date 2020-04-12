@@ -1,26 +1,43 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.App-logo {
+  height: 70px;
+  pointer-events: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
   color: white;
 }
 
@@ -28,11 +45,46 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@-webkit-keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.App-header h1 {
+  color: white;
+}
+
+.first-comp {
+  text-align: center;
+}
+
+.classcomp {
+  text-align: center;
+  background: rgba(128, 128, 128, 0.589);
+  color: white;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.heading {
+  text-transform: uppercase;
+  font: bold 35px/1.4 "Courier New", Courier, monospace;
+  margin: 10px 0;
 }
