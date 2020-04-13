@@ -53,9 +53,15 @@
 }
 
 .App-link {
-  color: #61dafb;
   font-family: ARS Maquette Pro Light Italic;
-  font-weight: bold;
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.App-link:hover {
+  color: #61dafb;
 }
 
 @-webkit-keyframes App-logo-spin {
@@ -110,7 +116,7 @@
   text-align: center;
   font-size: 40px;
   color: #fff;
-  margin: 0 0 1em;
+  margin: 0;
 }
 
 .App-footer .like-state button {

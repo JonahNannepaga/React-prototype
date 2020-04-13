@@ -28,9 +28,14 @@
 }
 
 .App-link {
-  color: $primaryColor;
   font-family: $textfont;
-  font-weight: bold;
+  font: $font;
+  font-size: 20px;
+  text-decoration: none;
+  color: $white;
+  &:hover {
+    color: $primaryColor;
+  }
 }
 
 @keyframes App-logo-spin {
