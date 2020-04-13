@@ -1,0 +1,50 @@
+//Header styles
+.App-logo {
+  height: 70px;
+  pointer-events: none;
+  display: block;
+  margin: auto;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: $primaryBackground;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  color: $white;
+}
+
+.App-link {
+  color: $primaryColor;
+  font-family: $textfont;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-header {
+  h1 {
+    font-family: $primaryFont;
+    color: $primaryColor;
+  }
+}
+//Header styles ends

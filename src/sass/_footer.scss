@@ -1,0 +1,26 @@
+.App-footer {
+  background-color: $primaryBackground;
+  min-height: 300px;
+  font-size: 16px;
+  display: flex;
+  color: $primaryColor;
+  align-items: center;
+  justify-content: space-evenly;
+  .like-state {
+    width: 50%;
+    p {
+      font: $font;
+      text-align: center;
+      font-size: 40px;
+      color: $white;
+      margin: 0 0 1em;
+    }
+    button {
+      font: $font;
+      display: flex;
+      margin: auto;
+      border-radius: 15px;
+      padding: 10px 30px;
+    }
+  }
+}

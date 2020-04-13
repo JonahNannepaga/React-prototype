@@ -1,9 +1,20 @@
-/* .App {
-  text-align: center;
-} */
+@font-face {
+  font-family: "ARS Maquette Pro Light";
+  src: url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.eot");
+  src: url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.woff") format("woff"), url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4629c048a3822d4fed2b0472eb3e708f.svg#ARS Maquette Pro Light") format("svg");
+}
+
+@font-face {
+  font-family: "ARS Maquette Pro Light Italic";
+  src: url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.eot");
+  src: url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.woff") format("woff"), url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/64327e375a92a66cab1ca557d12cfae0.svg#ARS Maquette Pro Light") format("svg");
+}
+
 .App-logo {
   height: 70px;
   pointer-events: none;
+  display: block;
+  margin: auto;
 }
 
 .logo-container {
@@ -38,11 +49,13 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 16px;
-  color: white;
+  color: #fff;
 }
 
 .App-link {
   color: #61dafb;
+  font-family: ARS Maquette Pro Light Italic;
+  font-weight: bold;
 }
 
 @-webkit-keyframes App-logo-spin {
@@ -68,7 +81,46 @@
 }
 
 .App-header h1 {
-  color: white;
+  font-family: ARS Maquette Pro Light;
+  color: #61dafb;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 300px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #61dafb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App-footer .like-state {
+  width: 50%;
+}
+
+.App-footer .like-state p {
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin: 0 0 1em;
+}
+
+.App-footer .like-state button {
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px 30px;
 }
 
 .first-comp {
@@ -78,7 +130,7 @@
 .classcomp {
   text-align: center;
   background: rgba(128, 128, 128, 0.589);
-  color: white;
+  color: #fff;
   padding: 5px 0;
   margin: 0;
 }
@@ -86,5 +138,9 @@
 .heading {
   text-transform: uppercase;
   font: bold 35px/1.4 "Courier New", Courier, monospace;
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  font-size: 35px;
   margin: 10px 0;
+  word-spacing: 10px;
+  letter-spacing: 0.83px;
 }

@@ -1,10 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-// import FirstComponent from "./components/FirstComponent";
-import { FunctionalComponent } from "./components/FirstComponent";
+// import FirstComponent from "./components/FirstComponent"; /*(default export)*/
+import { FunctionalComponent } from "./components/FirstComponent"; /*(named export)*/
 import ClassComponent from "./components/ClassComponent";
 import { Heading } from "./components/SectionHeader";
+import LikeStateComp from "./components/LikeStateComp";
+import CounterStateComp from "./components/CounterStateComp";
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <header className="App-header">
         <div className="logo-container">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>ReactApp</h1>
+          <h1>MyReactApp</h1>
         </div>
         <a
           className="App-link"
@@ -27,10 +29,14 @@ function App() {
         <FunctionalComponent></FunctionalComponent>
         <ClassComponent id="first"></ClassComponent>
         <Heading title="Heading 1 Using props"></Heading>
-        <Heading title="Heading 2"></Heading>
+        <Heading title="Heading 2 Using props"></Heading>
         <ClassComponent id="second"></ClassComponent>
-        <Heading title="Heading 3"></Heading>
+        <Heading title="Footer section"></Heading>
       </main>
+      <footer className="App-footer">
+        <CounterStateComp></CounterStateComp>
+        <LikeStateComp></LikeStateComp>
+      </footer>
     </div>
   );
 }

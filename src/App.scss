@@ -1,50 +1,7 @@
-/* .App {
-  text-align: center;
-} */
-
-.App-logo {
-  height: 70px;
-  pointer-events: none;
-}
-.logo-container {
-  display: flex;
-  justify-content: flex-start;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.App-header {
-  h1 {
-    color: white;
-  }
-}
+@import "./sass/fonts";
+@import "./sass/variables";
+@import "./sass/header";
+@import "./sass/footer";
 
 .first-comp {
   text-align: center;
@@ -53,7 +10,7 @@
 .classcomp {
   text-align: center;
   background: rgba(128, 128, 128, 0.589);
-  color: white;
+  color: $white;
   padding: 5px 0;
   margin: 0;
 }
@@ -62,5 +19,9 @@
 .heading {
   text-transform: uppercase;
   font: bold 35px/1.4 "Courier New", Courier, monospace;
+  font: $font;
+  font-size: 35px;
   margin: 10px 0;
+  word-spacing: 10px;
+  letter-spacing: 0.83px;
 }
