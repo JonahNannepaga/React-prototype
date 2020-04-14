@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Home";
 import About from "./About";
 import Products from "./Products";
+import ProductDetail from "./ProductDetail";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LikeStateComp from "./components/LikeStateComp";
 import Timer from "./components/Timer";
@@ -36,7 +37,8 @@ function App() {
 
             <Route path="/contact" component={About}></Route>
 
-            <Route path="/products" component={Products}></Route>
+            <Route path="/products" exact component={Products}></Route>
+            <Route path="/products/:id" component={ProductDetail}></Route>
           </Switch>
         </main>
         <footer className="App-footer">
