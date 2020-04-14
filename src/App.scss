@@ -2,7 +2,7 @@
 @import "./sass/variables";
 @import "./sass/header";
 @import "./sass/footer";
-
+@import "./sass/homepage";
 .first-comp {
   text-align: center;
 }
@@ -10,18 +10,28 @@
 .classcomp {
   text-align: center;
   background: rgba(128, 128, 128, 0.589);
-  color: $white;
-  padding: 5px 0;
+  color: $primaryColor;
   margin: 0;
+  z-index: 1;
 }
 
 //Global Headings
 .heading {
-  text-transform: uppercase;
-  font: bold 35px/1.4 "Courier New", Courier, monospace;
   font: $font;
-  font-size: 35px;
-  margin: 10px 0;
-  word-spacing: 10px;
-  letter-spacing: 0.83px;
+  font-size: 30px;
+  text-align: center;
+  background: $primaryColor;
+  color: $primaryBackground;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.classcomp {
+  background: transparent url("../src/img/banner_background.jpg") no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  color: $primaryBackground;
+  font: $font;
 }

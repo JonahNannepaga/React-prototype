@@ -1,0 +1,44 @@
+{
+  "productsdb": [
+    {
+      "id": "001",
+      "name": "Iphone X",
+      "category": "mobile",
+      "price": "2500",
+      "description": "Product description",
+      "image": "path"
+    },
+    {
+      "id": "002",
+      "name": "Iphone X pro",
+      "category": "mobile",
+      "price": "4000",
+      "description": "Product description",
+      "image": "path"
+    },
+    {
+      "id": "003",
+      "name": "Iphone X plus",
+      "category": "mobile",
+      "price": "3000",
+      "description": "Product description",
+      "image": "path"
+    },
+    {
+      "id": "004",
+      "name": "Bose",
+      "category": "headphones",
+      "price": "2500",
+      "description": "Product description",
+      "image": "path"
+    },
+    {
+      "id": "005",
+      "name": "Boat",
+      "category": "headphones",
+      "price": "2500",
+      "description": "Product description",
+      "image": "path"
+    }
+  ]
+}

@@ -129,6 +129,15 @@
   padding: 10px 30px;
 }
 
+.carditem {
+  width: 31%;
+  margin: 5% 1%;
+}
+
+.carditem h3 {
+  font-size: 30px;
+}
+
 .first-comp {
   text-align: center;
 }
@@ -136,17 +145,30 @@
 .classcomp {
   text-align: center;
   background: rgba(128, 128, 128, 0.589);
-  color: #fff;
-  padding: 5px 0;
+  color: #61dafb;
   margin: 0;
+  z-index: 1;
 }
 
 .heading {
-  text-transform: uppercase;
-  font: bold 35px/1.4 "Courier New", Courier, monospace;
   font: bold 16px/1.4 ARS Maquette Pro Light;
-  font-size: 35px;
-  margin: 10px 0;
-  word-spacing: 10px;
-  letter-spacing: 0.83px;
+  font-size: 30px;
+  text-align: center;
+  background: #61dafb;
+  color: #282c34;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.classcomp {
+  background: transparent url("../src/img/banner_background.jpg") no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #282c34;
+  font: bold 16px/1.4 ARS Maquette Pro Light;
 }
