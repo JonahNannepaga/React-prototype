@@ -4,6 +4,7 @@ import React from "react";
 export const HomepageCard = (props) => (
   <div className="carditem">
     <h3>{props.title}</h3>
+    {/* <img src={require(`${props.link}`)} alt="card-item" /> */}
     <img src={props.link} alt="card-item" />
   </div>
 );
