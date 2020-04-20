@@ -8,6 +8,7 @@ import ProductDetail from "./ProductDetail";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LikeStateComp from "./components/LikeStateComp";
 import Timer from "./components/Timer";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
         <header className="App-header">
           <div className="logo-container">
             <img src={logo} className="App-logo" alt="logo" />
-            <a href="/">
+            <a href="/React-prototype">
               <h1>MyReactApp</h1>
             </a>
           </div>
 
-          <Link to="/" className="App-link">
+          <Link to="/React-prototype" className="App-link">
             Home
           </Link>
           <Link to="/products" className="App-link">
@@ -33,7 +34,8 @@ function App() {
         </header>
         <main>
           <Switch>
-            <Route path="/" exact component={Home}></Route>
+            {/* <Route path="/" exact component={Home}></Route> */}
+            <Route path="/React-prototype" exact component={Home}></Route>
 
             <Route path="/contact" component={About}></Route>
 
@@ -45,6 +47,7 @@ function App() {
           <Timer></Timer>
           <LikeStateComp></LikeStateComp>
         </footer>
+        <Copyright></Copyright>
       </div>
     </Router>
   );

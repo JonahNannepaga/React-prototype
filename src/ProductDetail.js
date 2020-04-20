@@ -19,7 +19,7 @@ function ProductDetail({ match }) {
     setItem(item[0]);
   };
   return (
-    <div class="products-detail">
+    <div className="products-detail">
       <Heading title={item.name}></Heading>
       <img src={item.image} alt={item.name} />
       <h3>Price: {item.price}$</h3>

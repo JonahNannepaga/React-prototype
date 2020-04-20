@@ -10,35 +10,35 @@
     },
     {
       "id": "002",
-      "name": "Iphone X pro",
-      "category": "mobile",
-      "price": "4000",
-      "description": "Product description",
-      "image": ""
+      "name": "Apple Watch Series 3",
+      "category": "Smart Watches",
+      "price": "500",
+      "description": "Built-in GPS, GLONASS, Galileo, and QZSS, S5 with 64-bit dual-core processor, W3 Apple wireless chip, Barometric altimeter, Capacity 32GB, Optical heart sensor, Electrical heart sensor, Improved accelerometer up to 32 g‑forces, Improved gyroscope, Ambient light sensor, LTPO OLED Always-On Retina display with Force Touch (1000 nits), Digital Crown with haptic feedback, Louder speaker, Ion-X strengthened glass, Sapphire crystal and ceramic back, Wi-Fi 802.11b/g/n 2.4GHz, Bluetooth 5.0, Built-in rechargeable lithium-ion battery, Up to 18 hours of battery life, Water resistant 50 meters, watchOS 5",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71fwbMm1NBL._AC_SX522_.jpg"
     },
     {
       "id": "003",
-      "name": "Iphone X plus",
-      "category": "mobile",
-      "price": "3000",
-      "description": "Product description",
-      "image": ""
+      "name": "Canon EOS Rebel 2000",
+      "category": "Camera",
+      "price": "199",
+      "description": "The Canon EOS Rebel 2000 is an affordable, lightweight, andfull-featured automatic 35mm SLR for both beginning and advancedamateur photographers. It offers a host of special modes for specificshooting situations, including full auto, manual, night scene,portrait, landscape, and more. It also has shutter-speed priority andaperture priority modes--although most users will inevitably leave thecamera in full auto mode a majority of the time and the cameraperforms very well that way. Just remember that the empty rectanglesymbol on the mode dial is for full auto.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/5175F8Q8J1L._AC_.jpg"
     },
     {
       "id": "004",
       "name": "Bose SoundLink Color Bluetooth Speaker II",
       "category": "Speakers",
-      "price": "2500",
+      "price": "99",
       "description": "From the pool to the park to the patio, the SoundLink Color Bluetooth speaker II provides full range, portable sound anywhere you go. Advanced Bose technology packs big sound into a small, water resistant speaker that’s durable enough to take with you however the day unfolds, even if it’s next to the pool. It’s durably built, with an easy touch silicone texture that won’t slip out of your hand when you’re on the move. And it’s just as simple to use—voice prompts tell you what device you’re paired to so you don’t have to guess, and if you’re using an NFC enabled device, just pair with a tap. Need to keep the music flowing? You’re covered with up to 8 hours of music, and it’s rechargeable via Micro B USB. There’s even a built in speakerphone to handle calls without holding your phone. Also download the Bose Connect app to drag and drop Bluetooth connections, unlock features and access updates down the line. This small colored wireless speaker is available in Aquatic Blue, Coral Red, Soft Black or Polar White. Included: SoundLink Color Bluetooth speaker II; USB cable.",
-      "image": ""
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81M4S0gb-AL._AC_SX522_.jpg"
     },
     {
       "id": "005",
-      "name": "Boat Bluetooth Earphones",
+      "name": "Sony MDRXB510AS/B Extra Bass",
       "category": "Earphones",
-      "price": "1499",
-      "description": "Hear every bit of your favourite music with this BoAt Rockerz 255R Earphones. Its ear buds will help you immerse yourself in an emotional sound experience. Combining innovative design and impressive bass technology, these earphones are ideal for those of you who doesn't want to compromise on power or sound quality. These earphones are made for people on the go who don’t want to compromise with their music hearing experience.",
-      "image": ""
+      "price": "35.56",
+      "description": "Stay motivated with the driving beat of the extra bass sports in-ear headphones that deliver powerful bass, plus water and sweat resistance that's perfect for active lifestyles.1 enjoy a comfortable, secure fit no matter what you're doing with the built-in ARC supports and move freely with the extended cord. If you like to run or train, give them a workout.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61VQHvX2VRL._AC_SX522_.jpg"
     }
   ]
 }
