@@ -36,9 +36,7 @@ function App() {
           <Switch>
             {/* <Route path="/" exact component={Home}></Route> */}
             <Route path="/React-prototype" exact component={Home}></Route>
-
             <Route path="/contact" component={About}></Route>
-
             <Route path="/products" exact component={Products}></Route>
             <Route path="/products/:id" component={ProductDetail}></Route>
           </Switch>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HomepageCard from "../components/HomepageCard";
+// import HomepageCard from "../components/HomepageCard";
 import { Link } from "react-router-dom";
 class ClassComponent extends Component {
   render() {

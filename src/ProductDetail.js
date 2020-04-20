@@ -5,7 +5,7 @@ import { Heading } from "./components/SectionHeader";
 function ProductDetail({ match }) {
   useEffect(() => {
     fetchProduct();
-  }, []);
+  }, []); // eslint-disable-next-line
 
   const [item, setItem] = useState({
     name: "",

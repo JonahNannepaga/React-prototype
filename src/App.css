@@ -239,6 +239,7 @@
 
 .form-comp input[type="text"],
 .form-comp input[type="email"],
+.form-comp input[type="tel"],
 .form-comp input[type="submit"] {
   margin-bottom: 15px;
   font: bold 16px/1.4 ARS Maquette Pro Light;

@@ -55,7 +55,7 @@ class FormComponent extends React.Component {
           </label>
           <label>
             Mobile:
-            <input type="text" value={this.state.mobile} onChange={this.handleChangeMobile}/>
+            <input type="tel" value={this.state.mobile} onChange={this.handleChangeMobile}/>
           </label>
 
           <input type="submit" value="Submit"/>
