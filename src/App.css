@@ -172,3 +172,27 @@
   color: #282c34;
   font: bold 16px/1.4 ARS Maquette Pro Light;
 }
+
+.products img {
+  height: 300px;
+}
+
+.products .card-item {
+  margin: 3% 1% 0;
+}
+
+.products-detail {
+  text-align: center;
+}
+
+.products-detail h3 {
+  color: #24b624;
+  font-size: 30px;
+}
+
+.products-detail p {
+  font: bold 16px/1.4 ARS Maquette Pro Light;
+  font-family: ARS Maquette Pro Light Italic;
+  max-width: 610px;
+  margin: 0 auto 30px;
+}

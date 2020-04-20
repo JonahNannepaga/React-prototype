@@ -19,9 +19,11 @@ function ProductDetail({ match }) {
     setItem(item[0]);
   };
   return (
-    <div>
-      <Heading title="Products Detail Page"></Heading>
-      <h3>{item.name} Details Page</h3>
+    <div class="products-detail">
+      <Heading title={item.name}></Heading>
+      <img src={item.image} alt={item.name} />
+      <h3>Price: {item.price}$</h3>
+      <p>{item.description}</p>
     </div>
   );
 }

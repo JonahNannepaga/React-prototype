@@ -35,3 +35,26 @@
   color: $primaryBackground;
   font: $font;
 }
+
+.products {
+  img {
+    height: 300px;
+  }
+  .card-item {
+    margin: 3% 1% 0;
+  }
+}
+
+.products-detail {
+  text-align: center;
+  h3 {
+    color: rgb(36, 182, 36);
+    font-size: 30px;
+  }
+  p {
+    font: $font;
+    font-family: $textfont;
+    max-width: 610px;
+    margin: 0 auto 30px;
+  }
+}

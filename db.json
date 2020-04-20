@@ -2,11 +2,11 @@
   "productsdb": [
     {
       "id": "001",
-      "name": "Iphone X",
-      "category": "mobile",
+      "name": "Apple Iphone 11",
+      "category": "Mobiles",
       "price": "2500",
-      "description": "Product description",
-      "image": "path"
+      "description": "Lasts up to 1 hour longer than iPhone XR; Video playback: Up to 17 hours; Video playback (streamed): Up to 10 hours; Audio playback: Up to 65 hours; Fast-charge capable: Up to 50% charge in 30 minute with 18W adapter or higher (sold separately)",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51oXVi%2BZhhL._SX679_.jpg"
     },
     {
       "id": "002",
@@ -14,7 +14,7 @@
       "category": "mobile",
       "price": "4000",
       "description": "Product description",
-      "image": "path"
+      "image": ""
     },
     {
       "id": "003",
@@ -22,23 +22,23 @@
       "category": "mobile",
       "price": "3000",
       "description": "Product description",
-      "image": "path"
+      "image": ""
     },
     {
       "id": "004",
-      "name": "Bose",
-      "category": "headphones",
+      "name": "Bose SoundLink Color Bluetooth Speaker II",
+      "category": "Speakers",
       "price": "2500",
-      "description": "Product description",
-      "image": "path"
+      "description": "From the pool to the park to the patio, the SoundLink Color Bluetooth speaker II provides full range, portable sound anywhere you go. Advanced Bose technology packs big sound into a small, water resistant speaker that’s durable enough to take with you however the day unfolds, even if it’s next to the pool. It’s durably built, with an easy touch silicone texture that won’t slip out of your hand when you’re on the move. And it’s just as simple to use—voice prompts tell you what device you’re paired to so you don’t have to guess, and if you’re using an NFC enabled device, just pair with a tap. Need to keep the music flowing? You’re covered with up to 8 hours of music, and it’s rechargeable via Micro B USB. There’s even a built in speakerphone to handle calls without holding your phone. Also download the Bose Connect app to drag and drop Bluetooth connections, unlock features and access updates down the line. This small colored wireless speaker is available in Aquatic Blue, Coral Red, Soft Black or Polar White. Included: SoundLink Color Bluetooth speaker II; USB cable.",
+      "image": ""
     },
     {
       "id": "005",
-      "name": "Boat",
-      "category": "headphones",
-      "price": "2500",
-      "description": "Product description",
-      "image": "path"
+      "name": "Boat Bluetooth Earphones",
+      "category": "Earphones",
+      "price": "1499",
+      "description": "Hear every bit of your favourite music with this BoAt Rockerz 255R Earphones. Its ear buds will help you immerse yourself in an emotional sound experience. Combining innovative design and impressive bass technology, these earphones are ideal for those of you who doesn't want to compromise on power or sound quality. These earphones are made for people on the go who don’t want to compromise with their music hearing experience.",
+      "image": ""
     }
   ]
 }

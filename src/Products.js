@@ -20,12 +20,13 @@ function Products() {
     <div>
       <Heading title="Products"></Heading>
 
-      <div className="classcomp">
+      <div className="classcomp products">
         {items.map((comp) => (
           <div key={comp.id} className="carditem">
-            <h3>
-              <Link to={`/products/${comp.id}`}>{comp.name}</Link>
-            </h3>
+            <Link to={`/products/${comp.id}`}>
+              <h3>{comp.name}</h3>
+              <img src={comp.image} alt={comp.name} />
+            </Link>
           </div>
         ))}
       </div>

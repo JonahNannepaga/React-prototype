@@ -7,22 +7,22 @@ class ClassComponent extends Component {
       <div className="classcomp">
         <HomepageCard
           title="Mobiles"
-          link={require("../img/adv_1.png")}
+          link={require("../img/new_single.png")}
+        ></HomepageCard>
+        <HomepageCard
+          title="Speakers"
+          link={require("../img/adv_3.png")}
+        ></HomepageCard>
+        <HomepageCard
+          title="Laptops and Monitors"
+          link={require("../img/blog_5.jpg")}
         ></HomepageCard>
         <HomepageCard
           title="Smart Watches"
-          link={require("../img/adv_1.png")}
+          link={require("../img/trends_2.jpg")}
         ></HomepageCard>
         <HomepageCard
-          title="Cameras"
-          link={require("../img/adv_1.png")}
-        ></HomepageCard>
-        <HomepageCard
-          title="Gaming Accesories"
-          link={require("../img/adv_1.png")}
-        ></HomepageCard>
-        <HomepageCard
-          title="Earphones and Speakers"
+          title="Earphones"
           link={require("../img/adv_1.png")}
         ></HomepageCard>
       </div>
