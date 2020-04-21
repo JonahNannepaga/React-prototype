@@ -25,10 +25,10 @@ function App() {
           <Link to="/React-prototype" className="App-link">
             Home
           </Link>
-          <Link to="/products" className="App-link">
+          <Link to="/React-prototype/products" className="App-link">
             Products
           </Link>
-          <Link to="/contact" className="App-link">
+          <Link to="/React-prototype/contact" className="App-link">
             Contact Us
           </Link>
         </header>
@@ -36,9 +36,16 @@ function App() {
           <Switch>
             {/* <Route path="/" exact component={Home}></Route> */}
             <Route path="/React-prototype" exact component={Home}></Route>
-            <Route path="/contact" component={About}></Route>
-            <Route path="/products" exact component={Products}></Route>
-            <Route path="/products/:id" component={ProductDetail}></Route>
+            <Route path="/React-prototype/contact" component={About}></Route>
+            <Route
+              path="/React-prototype/products"
+              exact
+              component={Products}
+            ></Route>
+            <Route
+              path="/React-prototype/products/:id"
+              component={ProductDetail}
+            ></Route>
           </Switch>
         </main>
         <footer className="App-footer">

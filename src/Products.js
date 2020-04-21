@@ -23,7 +23,7 @@ function Products() {
       <div className="classcomp products">
         {items.map((comp) => (
           <div key={comp.id} className="carditem">
-            <Link to={`/products/${comp.id}`}>
+            <Link to={`/React-prototype/products/${comp.id}`}>
               <h3>{comp.name}</h3>
               <img src={comp.image} alt={comp.name} />
             </Link>
